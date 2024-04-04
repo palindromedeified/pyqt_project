@@ -1,0 +1,14 @@
+.QPushButton {
+    background-color: #7dabf6;
+}
+
+.QPushButton:hover {
+    background: #7D93F7;
+}
+
+.QTabWidget {
+    font-size: 10pt;
+    font-family: Verdana, serif;
+    color: black;
+    font-weight: bold;
+}

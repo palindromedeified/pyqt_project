@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>411</width>
+    <height>138</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLineEdit" name="name_task">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>191</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="placeholderText">
+    <string>Название задачи</string>
+   </property>
+  </widget>
+  <widget class="QPlainTextEdit" name="description">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>40</y>
+     <width>191</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="plainText">
+    <string/>
+   </property>
+   <property name="backgroundVisible">
+    <bool>false</bool>
+   </property>
+   <property name="placeholderText">
+    <string>Описание задачи</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="create_button">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>100</y>
+     <width>91</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font-family: Verdana;
+font-weight: bold;
+font-size: 8pt;
+border-radius: 10px;
+color: white;
+</string>
+   </property>
+   <property name="text">
+    <string>Создать</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="cancel">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>100</y>
+     <width>91</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font-family: Verdana;
+font-weight: bold;
+font-size: 8pt;
+border-radius: 10px;
+color: white;
+</string>
+   </property>
+   <property name="text">
+    <string>Отмена</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="audio">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>10</y>
+     <width>191</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font-family: Verdana;
+font-weight: bold;
+font-size: 8pt;
+border-radius: 10px;
+color: white;
+</string>
+   </property>
+   <property name="text">
+    <string>Добавить аудиозапись</string>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>../../../../.designer/images/microphone.png</normaloff>../../../../.designer/images/microphone.png</iconset>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="photo">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>40</y>
+     <width>191</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font-family: Verdana;
+font-weight: bold;
+font-size: 8pt;
+border-radius: 10px;
+color: white;
+</string>
+   </property>
+   <property name="text">
+    <string>Добавить изображение</string>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>../../../../.designer/images/png-transparent-computer-icons-user-interface-icons-angle-electronics-text.png</normaloff>../../../../.designer/images/png-transparent-computer-icons-user-interface-icons-angle-electronics-text.png</iconset>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="calendar_button">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>70</y>
+     <width>191</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font-family: Verdana;
+font-weight: bold;
+font-size: 8pt;
+border-radius: 10px;
+color: white;
+</string>
+   </property>
+   <property name="text">
+    <string>Дата выполнения задачи</string>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>../../../../.designer/images/calendar.png</normaloff>../../../../.designer/images/calendar.png</iconset>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

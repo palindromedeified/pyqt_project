@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>AudioForm</class>
+ <widget class="QWidget" name="AudioForm">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>281</width>
+    <height>88</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Аудио</string>
+  </property>
+  <widget class="QPushButton" name="record_button">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>81</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font-family: Verdana;
+font-weight: bold;
+font-size: 8pt;
+border-radius: 10px;
+color: white;
+</string>
+   </property>
+   <property name="text">
+    <string>Запись</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pause_button">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>10</y>
+     <width>81</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font-family: Verdana;
+font-weight: bold;
+font-size: 8pt;
+border-radius: 10px;
+color: white;
+</string>
+   </property>
+   <property name="text">
+    <string>Пауза</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="stop_button">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>10</y>
+     <width>81</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font-family: Verdana;
+font-weight: bold;
+font-size: 8pt;
+border-radius: 10px;
+color: white;</string>
+   </property>
+   <property name="text">
+    <string>Стоп</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="result">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>40</y>
+     <width>251</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Готово</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
